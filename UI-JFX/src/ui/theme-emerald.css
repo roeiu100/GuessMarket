@@ -1,0 +1,190 @@
+/* Emerald Classic Theme */
+.app-root {
+    -fx-background-color: #064e3b;
+    -fx-text-fill: #f0fdf4;
+}
+
+.app-header {
+    -fx-background-color: #022c22;
+    -fx-border-color: transparent transparent #065f46 transparent;
+}
+
+.app-title {
+    -fx-text-fill: #34d399;
+}
+
+.file-path-display {
+    -fx-background-color: #064e3b;
+    -fx-text-fill: #a7f3d0;
+    -fx-border-color: #065f46;
+}
+
+.progress-status-label {
+    -fx-text-fill: #6ee7b7;
+}
+
+.act-as-label {
+    -fx-text-fill: #d1fae5;
+}
+
+.main-tab-pane .tab-header-area .tab-header-background {
+    -fx-background-color: #022c22;
+}
+
+.main-tab-pane .tab {
+    -fx-background-color: #064e3b;
+    -fx-text-base-color: #a7f3d0;
+}
+
+.main-tab-pane .tab:selected {
+    -fx-background-color: #047857;
+    -fx-text-base-color: #ffffff;
+}
+
+.left-pane {
+    -fx-background-color: #022c22;
+    -fx-border-color: transparent #065f46 transparent transparent;
+}
+
+.detail-content-pane {
+    -fx-background-color: #064e3b;
+}
+
+.placeholder-label {
+    -fx-text-fill: #6ee7b7;
+}
+
+.filter-container {
+    -fx-background-color: #022c22;
+    -fx-border-color: #065f46;
+}
+
+.filter-section-title {
+    -fx-text-fill: #f0fdf4;
+}
+
+.filter-sub-label {
+    -fx-text-fill: #a7f3d0;
+}
+
+.filter-toggle-button {
+    -fx-background-color: #065f46;
+    -fx-text-fill: #d1fae5;
+}
+
+.filter-toggle-button:selected {
+    -fx-background-color: #10b981;
+    -fx-text-fill: #ffffff;
+}
+
+.table-view {
+    -fx-background-color: #022c22;
+    -fx-border-color: #065f46;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #064e3b;
+}
+
+.table-view .column-header {
+    -fx-text-fill: #a7f3d0;
+}
+
+.table-row-cell {
+    -fx-background-color: #022c22;
+    -fx-text-fill: #f0fdf4;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #03362a;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #059669;
+    -fx-text-fill: #ffffff;
+}
+
+.event-header-card, .user-header-card, .single-event-detail-card, .order-book-card, .lmsr-price-card, .trade-section-card, .user-trade-subcard {
+    -fx-background-color: #022c22;
+    -fx-border-color: #065f46;
+}
+
+.section-heading {
+    -fx-text-fill: #34d399;
+}
+
+.event-id-badge {
+    -fx-background-color: #047857;
+    -fx-text-fill: #ecfdf5;
+}
+
+.event-detail-title, .user-detail-title {
+    -fx-text-fill: #f0fdf4;
+}
+
+.event-detail-desc {
+    -fx-text-fill: #d1fae5;
+}
+
+.meta-title, .stat-title {
+    -fx-text-fill: #6ee7b7;
+}
+
+.meta-value, .stat-value {
+    -fx-text-fill: #ecfdf5;
+}
+
+.account-balance-card {
+    -fx-background-color: #065f46;
+    -fx-border-color: #34d399;
+}
+
+.account-balance-card-title {
+    -fx-text-fill: #a7f3d0;
+}
+
+.account-balance-card-value {
+    -fx-text-fill: #6ee7b7;
+}
+
+.account-balance-card-sub {
+    -fx-text-fill: #d1fae5;
+}
+
+.mm-actions-card {
+    -fx-background-color: #064e3b;
+    -fx-border-color: #10b981;
+}
+
+.mm-actions-title {
+    -fx-text-fill: #34d399;
+}
+
+.activation-notice {
+    -fx-text-fill: #a7f3d0;
+}
+
+.lmsr-card-title {
+    -fx-text-fill: #34d399;
+}
+
+.lmsr-price-value {
+    -fx-text-fill: #10b981;
+}
+
+.lmsr-shares-value {
+    -fx-text-fill: #d1fae5;
+}
+
+.lmsr-prob-value {
+    -fx-text-fill: #6ee7b7;
+}
+
+.btn-load-file, .btn-activate, .btn-trade-buy, .btn-trade-place {
+    -fx-background-color: #059669;
+    -fx-text-fill: #ffffff;
+}
+
+.btn-load-file:hover, .btn-activate:hover, .btn-trade-buy:hover, .btn-trade-place:hover {
+    -fx-background-color: #047857;
+}

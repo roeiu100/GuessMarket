@@ -1,0 +1,378 @@
+/* Base application styles */
+.app-root {
+    -fx-font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+    -fx-font-size: 13px;
+}
+
+/* Header */
+.app-header {
+    -fx-border-color: transparent transparent #d0d7de transparent;
+    -fx-border-width: 0 0 1px 0;
+}
+
+.app-title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-padding: 0 0 4px 0;
+}
+
+.file-path-display {
+    -fx-font-size: 12px;
+    -fx-padding: 5px 10px;
+    -fx-background-radius: 6px;
+    -fx-border-radius: 6px;
+    -fx-border-width: 1px;
+}
+
+.progress-status-label {
+    -fx-font-size: 11px;
+    -fx-font-style: italic;
+}
+
+.act-as-label {
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+}
+
+/* Tabs */
+.main-tab-pane {
+    -fx-tab-min-width: 120px;
+    -fx-tab-min-height: 36px;
+}
+
+.main-tab-pane .tab {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-insets: 0;
+    -fx-background-radius: 8px 8px 0 0;
+    -fx-padding: 6px 20px;
+}
+
+/* Panes */
+.left-pane {
+    -fx-border-color: transparent #e1e4e8 transparent transparent;
+    -fx-border-width: 0 1px 0 0;
+}
+
+.detail-content-pane {
+    -fx-padding: 16px;
+}
+
+.details-scroll-pane {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.details-scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+.placeholder-label {
+    -fx-font-size: 15px;
+    -fx-font-style: italic;
+    -fx-alignment: center;
+    -fx-padding: 40px;
+}
+
+/* Filter Bar */
+.filter-container {
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+    -fx-border-width: 1px;
+}
+
+.filter-section-title {
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+}
+
+.filter-sub-label {
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+}
+
+.filter-toggle-button {
+    -fx-font-size: 11px;
+    -fx-padding: 3px 8px;
+    -fx-background-radius: 4px;
+}
+
+/* Tables */
+.table-view {
+    -fx-background-radius: 6px;
+    -fx-border-radius: 6px;
+    -fx-border-width: 1px;
+}
+
+.table-view .column-header-background {
+    -fx-background-radius: 6px 6px 0 0;
+}
+
+.table-view .column-header {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-padding: 6px 4px;
+}
+
+.table-row-cell {
+    -fx-cell-size: 32px;
+}
+
+/* Cards & Sections */
+.event-header-card, .user-header-card, .single-event-detail-card {
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-border-width: 1px;
+}
+
+.section-heading {
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-padding: 6px 0 2px 0;
+}
+
+.event-id-badge {
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+    -fx-padding: 3px 8px;
+    -fx-background-radius: 12px;
+}
+
+.event-detail-title, .user-detail-title {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+.event-detail-desc {
+    -fx-font-size: 13px;
+}
+
+.meta-title {
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+}
+
+.meta-value {
+    -fx-font-size: 12px;
+}
+
+/* Status Badges */
+.status-badge {
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+    -fx-padding: 4px 10px;
+    -fx-background-radius: 12px;
+}
+
+.status-not-started {
+    -fx-background-color: #e2e8f0;
+    -fx-text-fill: #475569;
+}
+
+.status-active {
+    -fx-background-color: #dcfce7;
+    -fx-text-fill: #15803d;
+}
+
+.status-closed {
+    -fx-background-color: #fee2e2;
+    -fx-text-fill: #b91c1c;
+}
+
+.winning-announcement {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-color: #fef08a;
+    -fx-text-fill: #854d0e;
+    -fx-padding: 6px 12px;
+    -fx-background-radius: 6px;
+}
+
+/* Account Balance Card (Prominent on Slide 2) */
+.account-balance-card {
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-border-width: 2px;
+}
+
+.account-balance-card-title {
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+    -fx-text-transform: uppercase;
+}
+
+.account-balance-card-value {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+}
+
+.account-balance-card-sub {
+    -fx-font-size: 11px;
+}
+
+/* Market Maker Management Card */
+.mm-actions-card {
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+    -fx-border-width: 1px;
+}
+
+.mm-actions-title {
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+}
+
+.activation-notice {
+    -fx-font-size: 12px;
+    -fx-font-style: italic;
+}
+
+/* Order Book Component */
+.order-book-card {
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+    -fx-border-width: 1px;
+}
+
+.order-book-title {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.stats-grid {
+    -fx-padding: 4px 0;
+}
+
+.stat-title {
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+}
+
+.stat-value {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.order-table-header-buy {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #15803d;
+}
+
+.order-table-header-sell {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #b91c1c;
+}
+
+/* LMSR Price Cards */
+.lmsr-price-card {
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+    -fx-border-width: 1px;
+}
+
+.lmsr-card-title {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.lmsr-price-value {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+}
+
+.lmsr-shares-value {
+    -fx-font-size: 12px;
+}
+
+.lmsr-prob-value {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+/* Trade Section */
+.trade-section-card, .user-trade-subcard {
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+    -fx-border-width: 1px;
+    -fx-padding: 10px;
+}
+
+.trade-disabled-notice {
+    -fx-font-size: 12px;
+    -fx-font-style: italic;
+}
+
+.trade-blocked-notice {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #b91c1c;
+}
+
+.trade-cost-preview {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+/* Buttons */
+.btn-load-file, .btn-activate, .btn-trade-buy, .btn-trade-place {
+    -fx-font-weight: bold;
+    -fx-background-radius: 6px;
+    -fx-cursor: hand;
+    -fx-padding: 6px 14px;
+}
+
+.btn-close-event {
+    -fx-background-color: #dc2626;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6px;
+    -fx-cursor: hand;
+    -fx-padding: 6px 14px;
+}
+
+/* Badges */
+.badge-mm {
+    -fx-background-color: #ede9fe;
+    -fx-text-fill: #6d28d9;
+    -fx-font-weight: bold;
+    -fx-font-size: 11px;
+    -fx-padding: 3px 8px;
+    -fx-background-radius: 10px;
+}
+
+.badge-participant {
+    -fx-background-color: #e0f2fe;
+    -fx-text-fill: #0369a1;
+    -fx-font-size: 11px;
+    -fx-padding: 3px 8px;
+    -fx-background-radius: 10px;
+}
+
+.badge-active {
+    -fx-background-color: #dcfce7;
+    -fx-text-fill: #15803d;
+    -fx-font-size: 11px;
+    -fx-padding: 3px 8px;
+    -fx-background-radius: 10px;
+}
+
+.badge-blocked {
+    -fx-background-color: #fee2e2;
+    -fx-text-fill: #b91c1c;
+    -fx-font-weight: bold;
+    -fx-font-size: 11px;
+    -fx-padding: 3px 8px;
+    -fx-background-radius: 10px;
+}
+
+.pl-profit {
+    -fx-text-fill: #15803d;
+    -fx-font-weight: bold;
+}
+
+.pl-loss {
+    -fx-text-fill: #b91c1c;
+    -fx-font-weight: bold;
+}
